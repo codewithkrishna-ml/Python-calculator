@@ -1,6 +1,6 @@
-# Python Calculator App 🧮
+# Simple Python Calculator 🧮
 
-A robust and clean mathematical calculator built in Python using **Object-Oriented Programming (OOP)** principles. This application handles everything from standard arithmetic operations to input validation and structural mathematical logic.
+A clean, straightforward, and efficient Command Line Interface (CLI) calculator built using Python. This application takes two numeric inputs from the user and instantly calculates and displays all core arithmetic operations in a structured format.
 
 ---
 
@@ -15,19 +15,18 @@ A robust and clean mathematical calculator built in Python using **Object-Orient
 
 ## ✨ Key Features
 
-*   **Standard Operations:** Flawless handling of Core Arithmetic (Addition, Subtraction, Multiplication, Division).
-*   **Input Validation & Security:** Checks user entries in real-time to prevent unexpected crashes from illegal characters.
-*   **Robust Error Handling:** Features automated try-except guards to catch standard math traps like **ZeroDivisionError** gracefully.
-*   **History Logs (Optional):** Stores and recalls the history of previous calculations within the running session.
+*   **Instant Multi-Operation:** Computes Addition, Subtraction, Multiplication, and Division simultaneously upon user input.
+*   **User-Friendly Interactive Interface:** Displays confirmation of inputs alongside beautifully formatted mathematical expressions (e.g., `5 + 3 = 8`).
+*   **Lightweight & Fast:** Written in pure Python without using any external libraries, making it run instantly.
 
 ---
 
-## 🛠️ OOP Concepts Implemented
+## 🛠️ Code Logic Breakdown
 
-This project focuses on writing clean, reusable, and modular python components:
-*   **Classes & Objects:** Built using a dedicated `Calculator` engine class that encapsulates the processing states and calculation methods.
-*   **Encapsulation:** Protects execution results and computational history logs behind private class structures, ensuring clean state delivery.
-*   **Modular Architecture:** Easy to extend by simply adding new methods for advanced engineering math (like Trigonometry or Logarithms) without breaking existing workflows.
+This project showcases fundamental Python scripting capabilities:
+*   **Dynamic Data Casting:** Converts input strings directly into integer datatypes (`int(input())`) to prepare them for mathematical operations.
+*   **Arithmetic Evaluation:** Uses built-in operators (`+`, `-`, `*`, `/`) for execution.
+*   **Structured String Formatting:** Leverages multi-argument `print()` statements to dynamically build user-facing results.
 
 ---
 
@@ -39,7 +38,7 @@ This project focuses on writing clean, reusable, and modular python components:
     ```
 2.  **Navigate to the project folder:**
     ```bash
-    cd python-calculator-oop
+    cd python-basic-calculator
     ```
 3.  **Run the application:**
     ```bash
